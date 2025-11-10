@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Mis apuestas</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="logout()">Salir</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <h2>Total apostado: {{ totalSpent }}</h2>
+
+  <ion-list>
+    <ion-item *ngFor="let b of bets">
+      <ion-label>
+        <strong>{{ b.homeTeam }} vs {{ b.awayTeam }}</strong>
+        <p>{{ b.selection }} · {{ b.amount }} · @ {{ b.odds }}</p>
+        <small>
+          {{ b.createdAt?.toDate ? (b.createdAt.toDate() | date:'short') : (b.createdAt | date:'short') }}
+        </small>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button routerLink="/home">Partidos</ion-button>
+      <ion-button routerLink="/news">Noticias</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>
