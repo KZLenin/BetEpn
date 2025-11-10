@@ -50,7 +50,7 @@ El proyecto fue compilado y desplegado en Firebase Hosting mediante los siguient
 
 ```bash
 ionic build
-firebase deploy
+firebase deploy```
 
 ---
 
