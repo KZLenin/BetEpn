@@ -1,0 +1,7 @@
+{
+  "name": "BetEpn",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
