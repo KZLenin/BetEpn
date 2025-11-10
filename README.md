@@ -44,16 +44,6 @@ La aplicación hace uso de **API’s deportivas públicas**, que permiten obtene
 
 ---
 
-## 🚀 Despliegue y compilación
-
-El proyecto fue compilado y desplegado en Firebase Hosting mediante los siguientes comandos:
-
-```bash
-ionic build
-firebase deploy```
-
----
-
 ## 🔗 Versión en línea del proyecto:
 https://epnbet-36077.web.app
 
@@ -76,3 +66,13 @@ Se encuentra disponible en la carpeta /apk del repositorio.
 
 ## 🔗 Enlace al video en TikTok:
 https://vm.tiktok.com/ZMAWa4YPn/
+
+---
+
+## 🚀 Despliegue y compilación
+
+El proyecto fue compilado y desplegado en Firebase Hosting mediante los siguientes comandos:
+
+```bash
+ionic build
+firebase deploy
